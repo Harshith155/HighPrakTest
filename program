@@ -1,0 +1,10 @@
+Prince Book Store
+Create table prince_db.User_Details(
+UD_ID int4,
+US_NAME text,
+US_PASSWORD text
+);
+
+Insert into prince_db.User_Details values(1,'Mohammed Qamruddin','prince123');
+Insert into prince_db.User_Details values(2,'Yashraj M Patil','yash123');
+select * from prince_db.User_Details;
